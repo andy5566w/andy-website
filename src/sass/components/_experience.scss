@@ -12,6 +12,17 @@
 }
 
 .experience {
+  &__header {
+    grid-row: 1 / 4;
+    grid-column: 1 /4;
+    color: $color-primary;
+    font-weight: bold;
+    text-align: center;
+    @media only screen and (max-width: $bp-medium) {
+      display: none;
+    }
+  }
+
   display: grid;
   grid-template-columns: min-content 1fr;
   grid-row-gap: 1.5rem;
@@ -19,8 +30,10 @@
 
   &__icon {
     fill: $color-primary;
+    color: $color-primary;
     width: 4.5rem;
     height: 4.5rem;
+    font-size: 5rem;
     grid-row: 1 / span 2;
     transform: translateY(-1rem);
     // align-self: center;
@@ -28,5 +41,15 @@
 
   &__text {
     font-size: 1.7rem;
+    grid-row: 2 /5;
+    grid-column: 2 / 3;
+
+    & > li:not(:last-child), &--title {
+      margin-bottom: 1rem;
+    }
+
+    li {
+      list-style-position: inside;
+    }
   }
 }

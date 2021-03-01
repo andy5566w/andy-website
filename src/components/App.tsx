@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Header from './layout/Header'
 import SkillContainer from './Skill/SkillContainer'
-import Experience from './Experience'
+import Experiences from './Experience/Experiences'
 import IntroduceImage from './IntroduceImage'
 import IntroduceContent from './IntroduceContent'
 import Portfolio from './Portfolio'
@@ -20,7 +20,7 @@ class App extends Component {
 
         <SkillContainer />
 
-        <Experience />
+        <Experiences />
 
         <IntroduceImage />
 
