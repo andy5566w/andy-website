@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from './layout/Header'
-import Skill from './Skill'
+import SkillContainer from './Skill/SkillContainer'
 import Experience from './Experience'
 import IntroduceImage from './IntroduceImage'
 import IntroduceContent from './IntroduceContent'
@@ -18,7 +18,7 @@ class App extends Component {
 
         <Header />
 
-        <Skill />
+        <SkillContainer />
 
         <Experience />
 
