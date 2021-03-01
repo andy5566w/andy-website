@@ -5,127 +5,113 @@ class Gallery extends Component {
     return (
       <section className="gallery">
         <figure className="gallery__item gallery__item--1">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 1"
             className="gallery__img"
+            alt={'gallery__img'}
           />
         </figure>
 
         <figure className="gallery__item gallery__item--2">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 2"
+            alt={'Galleryimage2'}
             className="gallery__img"
           />
         </figure>
 
         <figure className="gallery__item gallery__item--3">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 3"
+            alt={'Galleryimage3'}
             className="gallery__img"
           />
         </figure>
 
         <figure className="gallery__item gallery__item--4">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 4"
+            alt={'Galleryimage4'}
             className="gallery__img"
           />
         </figure>
 
         <figure className="gallery__item gallery__item--5">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 5"
+            alt={'Galleryimage5'}
             className="gallery__img"
           />
         </figure>
 
         <figure className="gallery__item gallery__item--6">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 6"
+            alt={'Galleryimage6'}
             className="gallery__img"
           />
         </figure>
 
         <figure className="gallery__item gallery__item--7">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 7"
+            alt={'Galleryimage7'}
             className="gallery__img"
           />
         </figure>
 
         <figure className="gallery__item gallery__item--8">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 8"
+            alt={'Galleryimage8'}
             className="gallery__img"
           />
         </figure>
 
         <figure className="gallery__item gallery__item--9">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 9"
+            alt={'Galleryimage9'}
             className="gallery__img"
           />
         </figure>
 
         <figure className="gallery__item gallery__item--10">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 10"
+            alt={'Galleryimage10'}
             className="gallery__img"
           />
         </figure>
 
         <figure className="gallery__item gallery__item--11">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 11"
+            alt={'Galleryimage11'}
             className="gallery__img"
           />
         </figure>
 
         <figure className="gallery__item gallery__item--12">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 12"
+            alt={'Galleryimage12'}
             className="gallery__img"
           />
         </figure>
 
         <figure className="gallery__item gallery__item--13">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 13"
+            alt={'Galleryimage13'}
             className="gallery__img"
           />
         </figure>
 
         <figure className="gallery__item gallery__item--14">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img
             src="https://source.unsplash.com/random"
-            alt="Gallery image 14"
+            alt={'Galleryimage14'}
             className="gallery__img"
           />
         </figure>
