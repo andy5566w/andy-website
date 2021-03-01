@@ -1,19 +1,23 @@
 import React, { Component } from 'react'
+import js from '../../img/header/js.png'
+import react from '../../img/header/react.png'
+import typescript from '../../img/header/typescript.png'
+import sass from '../../img/header/sass.svg'
+import icon from '../../img/header/icon.jpg'
 
 class Header extends Component {
   render() {
     return (
       <header className="header">
-        <img src="img/logo.png" alt="logo" className="header__logo" />
-        <h3 className="heading-3">Your own home:</h3>
-        <h1 className="heading-1">The ultimate personal freedom</h1>
-        <button className="btn header__btn">View our properties</button>
-        <div className="header__seenon-text">Seen on</div>
+        <h3 className="heading-2">歡迎</h3>
+        <h1 className="heading-1">下方可以直接下載我的CV</h1>
+        <button className="btn header__btn">點擊下載CV</button>
+        <div className="header__seenon-text">使用過的技術</div>
         <div className="header__seenon-logos">
-          <img src="img/logo-bbc.png" alt="bbc" />
-          <img src="img/logo-forbes.png" alt="forbes" />
-          <img src="img/logo-techcrunch.png" alt="techcrunch" />
-          <img src="img/logo-bi.png" alt="bi" />
+          <img src={js} alt="js icon" />
+          <img src={typescript} alt="ty icon" />
+          <img src={react} alt="react icon" />
+          <img src={sass} alt="sass icon" />
         </div>
       </header>
     )
