@@ -4,10 +4,9 @@ class Experience extends Component {
   render() {
     return (
       <section className="experiences">
+        <h1 className="heading-1 experience__header">過往經驗</h1>
         <div className="experience">
-          <svg className="experience__icon">
-            <use href="img/sprite.svg#icon-global"></use>
-          </svg>
+          <span className="icon-money experience__icon"></span>
           <h4 className="heading-4 heading-4-dark">
             World's best luxury homes
           </h4>
