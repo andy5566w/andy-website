@@ -17,3 +17,14 @@ export type ExperienceType = {
   title: string
   content: Array<string>
 }
+
+export type PortfolioState = {
+  portfolios: Array<PortfolioType>
+}
+
+export type PortfolioType = {
+  title_img: any
+  name: string
+  skills: Array<any>
+  demo_link: string
+}

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { SkillState, SkillType } from '../../type'
 import Skill from './Skill'
-import js from '../../img/header/js.png'
-import react from '../../img/header/react.png'
-import typescript from '../../img/header/typescript.png'
-import sass from '../../img/header/sass.svg'
-import vue from '../../img/header/vue.png'
+import js from '../../img/skills/js.png'
+import react from '../../img/skills/react.png'
+import typescript from '../../img/skills/typescript.png'
+import sass from '../../img/skills/sass.svg'
+import vue from '../../img/skills/vue.png'
 
 class SkillContainer extends Component<any, SkillState> {
   state = {
@@ -43,7 +43,7 @@ class SkillContainer extends Component<any, SkillState> {
     ))
     return (
       <div className="skill">
-        <h3 className="heading-3">技術熟練度</h3>
+        <h3 className="heading-3">使用過的技術</h3>
         <div className="skill__list">{skills}</div>
       </div>
     )

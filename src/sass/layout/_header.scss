@@ -11,7 +11,7 @@
   padding: 4rem;
 
   display: grid;
-  grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
+  grid-template-rows: 1fr min-content 1fr minmax(6rem, min-content) ;
   grid-template-columns: minmax(min-content, max-content);
   grid-row-gap: 1.5rem;
   justify-content: center;
@@ -33,25 +33,43 @@
     justify-self: start;
   }
 
-  &__seenon-text {
-    display: grid;
-    grid-template-columns: 1fr max-content 1fr;
-    grid-column-gap: 1.5rem;
-    align-items: center;
+  &__person{
+    &-text {
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-column-gap: 1.5rem;
+      align-items: center;
 
-    font-size: 1.6rem;
-    color: $color-grey-light-2;
+      font-size: 1.6rem;
+      color: $color-grey-light-2;
 
-    &::before,
-    &::after {
-      content: "";
-      height: 1px;
-      display: block;
-      background-color: currentColor;
+      &::before,
+      &::after {
+        content: "";
+        height: 1px;
+        display: block;
+        background-color: currentColor;
+      }
+    }
+    &-lists{
+      font-size: 2rem;
+      li{
+        list-style-type: none;
+        a{
+          text-decoration: none;
+          color: white;
+          transition: .2s;
+
+          &:hover{
+            color: $color-primary;
+          }
+        }
+      }
     }
   }
 
-  &__seenon-logos {
+
+  &__person-logos {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 3rem;

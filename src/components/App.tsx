@@ -4,7 +4,7 @@ import SkillContainer from './Skill/SkillContainer'
 import Experiences from './Experience/Experiences'
 import IntroduceImage from './IntroduceImage'
 import IntroduceContent from './IntroduceContent'
-import Portfolio from './Portfolio'
+import Portfolios from './Portfolio/Portfolios'
 import Gallery from './Gallery'
 import Footer from './layout/Footer'
 
@@ -22,11 +22,11 @@ class App extends Component {
 
         <Experiences />
 
-        <IntroduceImage />
+        {/*<IntroduceImage />*/}
 
-        <IntroduceContent />
+        {/*<IntroduceContent />*/}
 
-        <Portfolio />
+        <Portfolios />
 
         <Gallery />
 
