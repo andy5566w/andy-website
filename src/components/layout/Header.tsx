@@ -6,7 +6,7 @@ class Header extends Component {
       <header className="header">
         <h3 className="heading-2">歡迎您的到來</h3>
         <h1 className="heading-1">下方可以直接下載我的CV</h1>
-        <a href="./resume/andy-tsai.pages" className="btn header__btn">
+        <a href="./resume/andy-tsai.pdf" className="btn header__btn" download>
           點擊下載CV
         </a>
         <div className="header__person-text">個人連結</div>

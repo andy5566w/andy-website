@@ -13,6 +13,9 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 10rem 5rem;
   grid-row-gap: 3.5rem;
+  border: 1px solid $color-primary;
+  border-radius: 1rem;
+  overflow: hidden;
 
   &__img {
     width: 100%;

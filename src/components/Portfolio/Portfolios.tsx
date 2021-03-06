@@ -38,7 +38,7 @@ class Portfolios extends Component<any, PortfolioState> {
         title_img: carousle,
         name: '輪播插件',
         skills: [js, html, typescript, sass],
-        demo_link: 'https://carnival-web-andy5566w.vercel.app',
+        demo_link: 'https://andy5566w.github.io/carousel_emomo/',
       },
       {
         title_img: cherry,
