@@ -13,27 +13,27 @@ class SkillContainer extends Component<any, SkillState> {
       {
         img_path: js,
         title: 'JavaScript',
-        content: '2017 ~ now',
+        content: '2018 ~ present',
       },
       {
         img_path: react,
         title: 'React',
-        content: '2020 ~ now',
+        content: '2020 ~ present',
       },
       {
         img_path: typescript,
-        title: 'Eric Feinman',
-        content: '2020 ~ now',
+        title: 'Typescript',
+        content: '2020 ~ present',
       },
       {
         img_path: sass,
         title: 'Sass',
-        content: '2017 ~ now',
+        content: '2019 ~ present',
       },
       {
         img_path: vue,
         title: 'Vue',
-        content: '2017 ~ now',
+        content: '2018 ~ present',
       },
     ],
   }
