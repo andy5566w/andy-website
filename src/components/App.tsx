@@ -2,11 +2,7 @@ import React, { Component } from 'react'
 import Header from './layout/Header'
 import SkillContainer from './Skill/SkillContainer'
 import Experiences from './Experience/Experiences'
-import IntroduceImage from './IntroduceImage'
-import IntroduceContent from './IntroduceContent'
 import Portfolios from './Portfolio/Portfolios'
-import Gallery from './Gallery'
-import Footer from './layout/Footer'
 
 class App extends Component {
   render() {
@@ -20,15 +16,7 @@ class App extends Component {
 
         <Experiences />
 
-        {/*<IntroduceImage />*/}
-
-        {/*<IntroduceContent />*/}
-
         <Portfolios />
-
-        {/*<Gallery />*/}
-
-        {/*<Footer />*/}
       </div>
     )
   }
