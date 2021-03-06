@@ -12,9 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <div className="sidebar">
-          <button className="nav-button"></button>
-        </div>
+        <div className="sidebar"></div>
 
         <Header />
 
@@ -28,9 +26,9 @@ class App extends Component {
 
         <Portfolios />
 
-        <Gallery />
+        {/*<Gallery />*/}
 
-        <Footer />
+        {/*<Footer />*/}
       </div>
     )
   }

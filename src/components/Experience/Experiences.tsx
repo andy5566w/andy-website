@@ -33,7 +33,7 @@ class Experiences extends Component<any, ExperienceState> {
       },
       {
         icon_path: 'icon-laptop',
-        title: '果子云網路公司 (2019-9 ~ now)',
+        title: '果子云網路公司 (2019-9 ~ present)',
         content: [
           '工作內容：',
           '製作客戶，廠商要求的RWD網站',
